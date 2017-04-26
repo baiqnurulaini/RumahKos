@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/tes', function () {
-    return view('tes');
+    return view('Admin/Paket/index');
 });
